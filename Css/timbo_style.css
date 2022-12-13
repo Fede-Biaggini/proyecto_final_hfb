@@ -22,53 +22,55 @@ li{
     box-shadow: rgb(54, 61, 54) 3px 1px;
     justify-items: center;
     margin: 200px;
-    /*justify-content: center;
-    align-items: center;*/
 }
 
 /*PRINCIPAL*/
 header{
     width: 100%;
     max-width: 1400px;
-    background-color: rgba(201, 209, 216, 0.945);
+    background-color: rgba(232, 239, 245, 0.486);
     border-radius: 10px;
 }
-/*main{
-    background-color: rgba(201, 209, 216, 0.945);
-    border-radius: 10px;
-}*/
+main{
+    margin-top: 2em;
+}
 aside{
     width: 100%;
     max-width: 1400px;
-    background-color: rgba(201, 209, 216, 0.945);
+    background-color: rgba(232, 239, 245, 0.486);
     border-radius: 10px;
     font-size: 0.3cm;
+    padding: 3px;
+    margin-top: 4em;
 }
 footer{
-    /*width: 100%;*/
-    max-width: 1400px;
-    background-color: rgba(201, 209, 216, 0.945);
+    background-color: rgba(232, 239, 245, 0.486);
     border-radius: 10px;
-    display: flex;
-    justify-content: flex-end;
     font-size: 10px;
+    padding: 3px;
+    margin-top: 0.5em;
 }
 h1 {
-    text-shadow: rgb(120, 122, 120) 3px 1px;
+    text-shadow: rgb(213, 216, 213) 3px 1px;
     display: flex;
     justify-content: center;
 }
 h2 {
     font-size: 0.5cm;
+    text-shadow: rgb(213, 216, 213) 3px 1px;
     display: flex;
     justify-content: center;
 }
 .botones{
     background-image: url(../Img/timbo\ boton.jpeg);
-    padding: 5px;
-    margin: 10px;
-    /*display: flex;
-    flex-direction:row;*/
+    padding: 4px;
+    margin: 2.5em;
+    display: inline;
+}
+#whatsapp {
+    border-radius: 15px;
+    border-color: white;
+    margin-top: 1em;
 }
 
 /*página de contacto*/
@@ -76,7 +78,7 @@ h2 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 2em;
     margin: 0.5em;
-    background-color: rgba(201, 209, 216, 0.945);
+    background-color: rgba(232, 239, 245, 0.486);
     border: 2px solid;
     border-radius: 10px;
 }
@@ -99,5 +101,5 @@ h2 {
     padding: 30px;
     box-shadow: rgb(54, 61, 54) 3px 1px;
     justify-items: center;
-    margin: 200px;
+    margin: 30px;
 }
