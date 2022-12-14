@@ -1,1 +1,1 @@
-alert("Página en mantenimiento, vuelva luego.. si quiere..");
+alert("Página en mantenimiento, vuelva luego.. Gracias!");
